@@ -24,15 +24,15 @@ module.exports = {
     validatePassword: check('password')
         .notEmpty()
         .withMessage('Password is required.')
-        .isLength({ min: 4, max: 16 })
-        .withMessage('Password must be between 4 to 16 characters.'),
+        .isLength({ min: 8, max: 16 })
+        .withMessage('Password must be between 8 to 16 characters.'),
 
     validateConfirmPassword: check('confirmPassword')
         .notEmpty()
         .withMessage('Confirm password is required.')
         .trim()
-        .isLength({ min: 4, max: 16 })
-        .withMessage('Password must be between 4 to 16 characters.')
+        .isLength({ min: 8, max: 16 })
+        .withMessage('Password must be between 8 to 16 characters.')
         .bail()
         .custom(async (confirmPassword, { req }) => {
             const password = req.body.password
