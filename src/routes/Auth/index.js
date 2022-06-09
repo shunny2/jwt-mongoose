@@ -36,8 +36,7 @@ router.post('/auth/login', [validateLoginEmail, validateLoginPassword], async (r
         return res.status(404).send({ error: errors })
 
     try {
-        const existingUser = await User.findOne({ email: email })
-
+        const existingUser = await User.findOne({ email: email }, '-password')
         const token = jwt.sign(
             { id: existingUser._id, email: existingUser.email, name: existingUser.name },
             JWT_SECRET,
@@ -45,7 +44,7 @@ router.post('/auth/login', [validateLoginEmail, validateLoginPassword], async (r
         )
         const refreshToken = jwt.sign({ token }, JWT_REFRESH_SECRET, { expiresIn: '1800s' })
 
-        return res.status(200).json({ message: 'Successfully authenticated!', token: token, refreshToken: refreshToken });
+        return res.status(200).json({ message: 'Successfully authenticated!', user: existingUser, token: token, refreshToken: refreshToken });
     } catch (error) {
         return res.status(500).json({ error: 'Could not enter. An internal server error has occurred.' });
     }
