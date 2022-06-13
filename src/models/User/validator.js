@@ -1,6 +1,6 @@
-const { check } = require('express-validator');
-const User = require('../../models/User');
-const bcrypt = require('bcrypt');
+const { check } = require('express-validator')
+const User = require('./index')
+const bcrypt = require('bcrypt')
 
 module.exports = {
     validateName: check('name')
