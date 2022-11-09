@@ -19,11 +19,14 @@ app.use('/api/user', user)
 app.use('/api/product', product)
 
 mongoose
-    .connect('mongodb://database:27017/crud-node-mongo-docker', {
+    .connect('mongodb://database:27017/jwt-node-mongo-docker', {
         useNewUrlParser: true
     })
     .then(result => {
-        console.log('MongoDB has been successfully connected!')
+        const { _readyState } = result.connection;
+
+        if ( _readyState === 1 )
+            console.log('MongoDB has been successfully connected!')
     })
     .catch(error => {
         console.log(error)
