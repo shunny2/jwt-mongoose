@@ -1,12 +1,12 @@
-version: '3'
+version: '3.1'
 
 services:
   server:
     container_name: NODEJS_SERVER
     build: '.'
     volumes:
-      - ./:/node-app
-      - ./node_modules:/node-app/node_modules
+      - ./:/jwt-node
+      - ./node_modules:/jwt-node/node_modules
     environment:
       NODE_ENV: development
     depends_on:
@@ -14,7 +14,7 @@ services:
     links:
       - database
     ports:
-      - '9000:9000'
+      - ${PORT}:${PORT}
 
   database:
     image: 'mongo'
