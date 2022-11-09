@@ -1,6 +1,6 @@
-FROM node:latest
+FROM node:19-alpine
 
-WORKDIR /node-app
+WORKDIR /jwt-node
 
 COPY package.json .
 
@@ -10,6 +10,6 @@ RUN npm install nodemon -g --quiet
 
 COPY . .
 
-EXPOSE 9000
+EXPOSE $PORT
 
 CMD nodemon -L --watch . src/index.js
