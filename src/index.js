@@ -3,6 +3,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const cors = require('cors')
+const swagguerUi = require('swagger-ui-express') 
 
 const app = express()
 const PORT = process.env.PORT || 9000
@@ -10,13 +11,13 @@ const PORT = process.env.PORT || 9000
 app.use(cors())
 app.use(bodyParser.json())
 
+const docs = require('./docs/swagger')
 const auth = require('../src/routes/Auth')
 const user = require('../src/routes/User')
-const product = require('./routes/Product')
 
-app.use('/api/auth', auth)
-app.use('/api/user', user)
-app.use('/api/product', product)
+app.use('/api/v1/docs', swagguerUi.serve, swagguerUi.setup(docs))
+app.use('/api/v1/auth', auth)
+app.use('/api/v1/users', user)
 
 mongoose
     .connect('mongodb://database:27017/jwt-node-mongo-docker', {
