@@ -63,7 +63,7 @@ Remember to put your MongoDB credentials to connect to the database.
 
 ## Project Status
 
-> Status: Developing.
+> Status: Completed.
 
 <hr/>
 
