@@ -22,7 +22,7 @@
 
 ## About Application
 
-An application made with Nodejs and Express to perform a JSON Web Token authentication flow.
+An application made with Nodejs, Express, and Mongoose to perform a JSON Web Token authentication flow.
 
 API Documentation is available at: [/api/v1/docs](http://localhost:9000/api/v1/docs/)
 
