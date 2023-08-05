@@ -61,6 +61,20 @@ npm run dev
 
 Remember to put your MongoDB credentials to connect to the database.
 
+### Running tests:
+
+If you use docker, run the following command in the project's root directory to access the container.
+```bash
+docker exec -it NODEJS_SERVER /bin/sh
+```
+
+After entering the container, run the following command to run the tests:
+```bash
+npm run test
+```
+
+Note: if you are not using docker, you can just run ```npm run test```
+
 ## Project Status
 
 > Status: Completed.
