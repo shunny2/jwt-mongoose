@@ -5,7 +5,9 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-run">How to Run</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="project-status">Project Status</a>
+  <a href="#project-status">Project Status</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
 </p>
 
 </br>
@@ -81,6 +83,10 @@ Note: if you are not using docker, you can just run ```npm run test```
 ## Project Status
 
 > Status: Completed.
+
+## License
+
+This project is under an [MIT](https://opensource.org/licenses/MIT) license.
 
 <hr/>
 
