@@ -31,13 +31,13 @@ API Documentation is available at: [/api/v1/docs](http://localhost:9000/api/v1/d
   </thead>
   <tbody>
     <td>
-      <a href="https://nodejs.org/en/"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" alt="Node.js logo image." /></a>
+      <a href="https://nodejs.org/en/" title="NodeJS"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/nodejs-1.svg" alt="Node.js logo image." /></a>
     </td>
     <td>
-      <a href="https://expressjs.com/"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="Express javascript logo image." /></a>
+      <a href="https://expressjs.com/" title="Express"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="Express javascript logo image." /></a>
     </td>
     <td>
-      <a href="https://swagger.io/"><img width="128" height="128" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" alt="Swagger logo image." /></a>
+      <a href="https://swagger.io/" title="Swagger"><img width="128" height="128" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" alt="Swagger logo image." /></a>
     </td>
   </tbody>
 </table>
