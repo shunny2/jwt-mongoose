@@ -42,6 +42,10 @@ API Documentation is available at: [/api/v1/docs](http://localhost:9000/api/v1/d
       <a href="https://jestjs.io/" title="Jest"><img width="128" height="128" src="https://cdn.worldvectorlogo.com/logos/jest-2.svg" alt="Jest logo image." /></a>
     </td>
     <td>
+      <a href="https://www.mongodb.com/" title="MongoDB"><img width="128" height="128" src="https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress" 
+        alt="MongoDB logo image." /></a>
+    </td>
+    <td>
       <a href="https://swagger.io/" title="Swagger Documentation"><img width="128" height="128" src="https://static1.smartbear.co/swagger/media/assets/images/swagger_logo.svg" alt="Swagger logo image." /></a>
     </td>
   </tbody>
