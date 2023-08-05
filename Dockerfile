@@ -12,4 +12,4 @@ COPY . .
 
 EXPOSE $PORT
 
-CMD nodemon -L --watch . src/index.js
+CMD nodemon -L --watch . src/server.js
