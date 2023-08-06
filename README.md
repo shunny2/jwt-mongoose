@@ -15,8 +15,8 @@
 ![docs](https://user-images.githubusercontent.com/72872854/201072742-cdb654d0-0f93-4dd7-bae7-2da3d4f912af.png)
 
 <p align="center">
-<a href="https://img.shields.io/github/watchers/shunny2/jwt-node?style=social"><img src="https://img.shields.io/github/watchers/shunny2/jwt-node?style=social" alt="Watchers"/></a>
 <a href="https://img.shields.io/github/stars/shunny2/jwt-node?style=social"><img src="https://img.shields.io/github/stars/shunny2/jwt-node?style=social" alt="Repo Stars"/></a>
+<a href="https://img.shields.io/github/forks/shunny2/jwt-node?style=social"><img src="https://img.shields.io/github/forks/shunny2/jwt-node?style=social" alt="Forks"/></a>
 <a href="https://img.shields.io/github/license/shunny2/jwt-node"><img src="https://img.shields.io/github/license/shunny2/jwt-node" alt="License"/></a>
 </p>
 
