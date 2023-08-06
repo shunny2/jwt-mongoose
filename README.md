@@ -5,14 +5,14 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#how-to-run">How to Run</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#routes">Routes</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#project-status">Project Status</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
 </br>
-
-![docs](https://user-images.githubusercontent.com/72872854/201072742-cdb654d0-0f93-4dd7-bae7-2da3d4f912af.png)
 
 <p align="center">
 <a href="https://img.shields.io/github/stars/shunny2/jwt-node?style=social"><img src="https://img.shields.io/github/stars/shunny2/jwt-node?style=social" alt="Repo Stars"/></a>
@@ -86,6 +86,12 @@ npm run test
 ```
 
 Note: if you are not using docker, you can just run ```npm run test```
+
+## Routes
+
+The image below describes the routes available by the application.
+
+![docs](https://user-images.githubusercontent.com/72872854/201072742-cdb654d0-0f93-4dd7-bae7-2da3d4f912af.png)
 
 ## Project Status
 
