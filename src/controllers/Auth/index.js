@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 const { validationResult } = require('express-validator')
 const { JWT_SECRET, JWT_REFRESH_SECRET } = process.env
 
-exports.get = (req, res) => {
+exports.get = (_, res) => {
     res.status(200).json({ message: 'Welcome to the API' })
 }
 
@@ -12,7 +12,7 @@ exports.login = async (req, res) => {
     const { email } = req.body
     const errors = validationResult(req)
     if (!errors.isEmpty())
-        return res.status(404).send({ error: errors })
+        return res.status(404).send(errors)
 
     try {
         const existingUser = await User.findOne({ email: email }, '-password')
@@ -32,7 +32,7 @@ exports.login = async (req, res) => {
 exports.register = async (req, res) => {
     const errors = validationResult(req)
     if (!errors.isEmpty())
-        return res.status(400).send({ error: errors })
+        return res.status(400).send(errors)
 
     try {
         const user = await User.create(req.body)
