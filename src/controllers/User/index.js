@@ -1,6 +1,6 @@
 const User = require("../../models/User")
 
-exports.users = async (req, res) => {
+exports.users = async (_, res) => {
     try {
         const users = await User.find()
         return res.status(200).json({ users: users })
