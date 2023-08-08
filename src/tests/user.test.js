@@ -7,6 +7,7 @@ const User = require('../models/User')
 /* Connecting to the database before each test. */
 beforeEach(async () => {
     await mongoose.connect(process.env.MONGODB_URI)
+    jest.clearAllMocks()
 })
 
 /* Dropping the database and closing connection after each test. */
@@ -15,10 +16,10 @@ afterEach(async () => {
     await mongoose.connection.close()
 })
 
-const check = async (user) => {
+const check = jest.fn(async (user) => {
     const existingUser = await User.findOne({ email: user.email })
     if (existingUser) throw new Error('This user already exists!')
-}
+})
 
 describe('Create User', () => {
     it('Should be able to create new user', async () => {
