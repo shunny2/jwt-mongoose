@@ -4,7 +4,7 @@ const app = require('../app')
 
 const User = require('../models/User')
 
-/* Connecting to the database before each test. */
+/* Connecting to the database before all tests. */
 beforeAll(async () => {
     await mongoose.connect(process.env.MONGODB_URI)
     jest.clearAllMocks()
