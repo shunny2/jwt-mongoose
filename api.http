@@ -9,6 +9,9 @@ Content-Type: application/json
     "repeatPassword": "12345678" 
 }
 
+### User List
+GET http://localhost:9000/api/v1/users/
+
 ### Search User by email
 GET http://localhost:9000/api/v1/users/john.doe@shared.com
 
