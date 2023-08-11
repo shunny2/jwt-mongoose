@@ -1,5 +1,5 @@
 {
-  "name": "jwt-node",
+  "name": "jwt-mongoose",
   "version": "1.0.0",
   "description": "Application in node to perform authentication via JSON web token.",
   "main": "index.js",
@@ -13,7 +13,8 @@
     "jwt",
     "jest",
     "supertest",
-    "mongodb"
+    "mongodb",
+    "moongose"
   ],
   "author": "Alexander Davis",
   "license": "MIT",
