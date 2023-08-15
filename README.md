@@ -58,7 +58,7 @@ API Documentation is available at [/api/v1/docs](http://localhost:9000/api/v1/do
 
 First, start by cloning the repository:
 ```shell
-git clone https://github.com/shunny2/jwt-node
+git clone https://github.com/shunny2/jwt-mongoose
 ```
 
 If you use docker, run the following command from the project root directory to build and run the project.
