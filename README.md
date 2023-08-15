@@ -15,16 +15,16 @@
 </br>
 
 <p align="center">
-<a href="https://img.shields.io/github/stars/shunny2/jwt-node?style=social"><img src="https://img.shields.io/github/stars/shunny2/jwt-node?style=social" alt="Repo Stars"/></a>
-<a href="https://img.shields.io/github/forks/shunny2/jwt-node?style=social"><img src="https://img.shields.io/github/forks/shunny2/jwt-node?style=social" alt="Forks"/></a>
-<a href="https://img.shields.io/github/license/shunny2/jwt-node"><img src="https://img.shields.io/github/license/shunny2/jwt-node" alt="License"/></a>
+<a href="https://img.shields.io/github/stars/shunny2/jwt-mongoose?style=social"><img src="https://img.shields.io/github/stars/shunny2/jwt-mongoose?style=social" alt="Repo Stars"/></a>
+<a href="https://img.shields.io/github/forks/shunny2/jwt-mongoose?style=social"><img src="https://img.shields.io/github/forks/shunny2/jwt-mongoose?style=social" alt="Forks"/></a>
+<a href="https://img.shields.io/github/license/shunny2/jwt-mongoose?style=social"><img src="https://img.shields.io/github/license/shunny2/jwt-mongoose?style=social" alt="License"/></a>
 </p>
 
 ## About Application
 
 An application made with Nodejs, Express, and Mongoose to perform a JSON Web Token authentication flow.
 
-API Documentation is available at: [/api/v1/docs](http://localhost:9000/api/v1/docs/)
+API Documentation is available at [/api/v1/docs](http://localhost:9000/api/v1/docs/)
 
 ## Technologies
 
