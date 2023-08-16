@@ -22,9 +22,11 @@
 
 ## About Application
 
-An application made with Nodejs, Express, and Mongoose to perform a JSON Web Token authentication flow.
+<b>JWT Mongoose</b> is an application made to perform user authentication flow. 
 
-API Documentation is available at [/api/v1/docs](http://localhost:9000/api/v1/docs/)
+The application was made for didactic purposes, but it is highly efficient for small and medium-sized projects. The architecture chosen for the project was [MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC) (Model View Controller), as it allows us to organize our project in an efficient and scalable way.
+
+The technologies used were [Nodejs](https://nodejs.org/), [Express](https://expressjs.com/), [Mongoose](https://mongoosejs.com/), [MongoDB](https://www.mongodb.com/), [Swagger](https://swagger.io/), [Jest](https://jestjs.io/), and [JSON Web Token](https://jwt.io/).
 
 ## Technologies
 
@@ -92,6 +94,8 @@ Note: if you are not using docker, you can just run ```npm run test```
 The image below describes the routes available by the application.
 
 ![docs](https://user-images.githubusercontent.com/72872854/201072742-cdb654d0-0f93-4dd7-bae7-2da3d4f912af.png)
+
+API Documentation is available at [/api/v1/docs](http://localhost:9000/api/v1/docs/)
 
 ## Project Status
 
